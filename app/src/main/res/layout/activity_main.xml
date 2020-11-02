@@ -16,7 +16,7 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:textAlignment="center"
-        android:paddingTop="40dp"
+        android:paddingTop="20dp"
         android:textColor="@color/purple_500"/>
     <TextView
         android:id="@+id/textView2"
@@ -39,7 +39,7 @@
 
     <com.airbnb.lottie.LottieAnimationView
         android:layout_width="300dp"
-        android:layout_height="320dp"
+        android:layout_height="300dp"
         app:lottie_rawRes="@raw/banner"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
@@ -50,6 +50,16 @@
         app:lottie_rawRes="@raw/sale"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
+        />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Powered by Padma Gnanapriya"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:paddingBottom="2dp"
         />
 
 
